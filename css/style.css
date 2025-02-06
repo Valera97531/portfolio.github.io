@@ -59,18 +59,18 @@ a {
 	text-transform: uppercase;
 }
 
-@media (any-hover: hover) {
-	a > div {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		padding-top: calc(50% - 26px);
-		z-index: 2;
-		background-color: rgba(0, 0, 0, 0.7);
-		left: -100%;
-		transition: left 0.6s;
-	}
+a > div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding-top: calc(50% - 26px);
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.7);
+	left: -100%;
+	transition: left 0.6s;
+}
 
+@media (any-hover: hover) {
 	a:hover div {
 		left: 0;
 	}
